@@ -1,0 +1,197 @@
+html,body{margin:0px; height:100%; }
+input{
+    outline: none;
+}
+body{
+    background-image: url(../images/body-bgc.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+/* 头部部分样式 */
+.header{
+    background-color: rgba(0,0,0,.3);
+    font-size: 0px;
+}
+.header span{
+    font: 30px/50px "Microsoft Yahei";
+    font-weight: bold;
+    padding:0px 20px 0px 50px;
+}
+.header input{
+    height: 22px;
+    width: 200px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-top-left-radius:16px; 
+    border-bottom-left-radius:16px;; 
+    padding: 5px 0px 5px 20px;
+    background: rgba(255, 255, 255,0.3);
+    position: relative;
+    top: -6px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color:#fff;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color:#fff;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color:#fff;
+}
+
+.header ul{
+    width: 208px;
+    max-height: 300px;
+    background-color: rgba(255, 255, 255,.6);
+    position: absolute;
+    left: 236px;
+    top: 42px;
+    overflow: auto;
+    padding: 0px;
+    z-index: 111;
+}
+.header ul li{
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255,.6);
+    list-style: none;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.header button{
+    width: 80px;
+    height: 32px;
+    font: 14px "Micirosoft Yahei";
+    color: white;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: linear-gradient(to left,#3b9eff 0,#19c3ff 100%);
+    position: relative;
+    top: -6px;
+}
+
+/* 内容部分 */
+.content{
+    width: 70%;
+    min-width:800px;
+    height: 150px;
+    margin: 100px auto;
+    background: rgba(0, 0, 0,.3);
+    display: flex;
+    color: white;
+}
+.content-icon{
+    width: 30%;
+    min-width: 240px;
+    height: 100%;
+}
+.content-icon i{
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 40px auto;
+    background: url(../images/sprite.png) no-repeat;
+    background-position: 0px 0px;
+}
+.content .content-right{
+    width: 70%;
+    min-width: 560px;
+    padding: 30px 0px;
+}
+.content-right-top{
+    margin-bottom: 15px;
+}
+.content .content-right .content-right-top strong{
+    font-size: 18px;
+    font-family: "宋体";
+
+    display: inline-block;
+}
+.content .content-right .content-right-top strong:nth-child(-n+6){
+    margin-right: 8px;
+}
+.content .content-right .content-right-bottom p{
+    margin: 7px 0px; 
+}
+.content .content-right .content-right-bottom span{
+    margin-right: 8px; 
+    /* display: inline-block; */
+}
+
+
+
+/* 底部部分 */
+.footer{
+    width: 70%;
+    min-width:910px;    
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* 底部每个div的样式 */
+.footer>div{
+    width: 180px;
+    height: 200px;
+    color: #fff;
+    background: rgba(0, 0, 0,.3);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* 每个div里面的样式 */
+.footer-item>span{
+    font: 16px/24px "Microsoft Yahei";
+    color: rgba(255,255,255,.7);
+}
+.footer-item .item-main{
+    box-sizing: padding-box;
+    padding: 7px 0px 0px 0px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+.footer-item .item-main i{
+    width: 70px;
+    height: 70px;
+    background:url(../images/sprite.png) no-repeat;
+    display: inline-block;
+}
+.footer-item .item-main p{
+    font-size:24px;
+    line-height: 24px;
+    margin: 7px 0px 14px 0px;
+}
+.footer-item .item-footer{
+    /* margin-top: 10px; */
+    padding-top: 10px;
+}
+.footer-item .item-footer strong{
+    font-size: 20px;
+}
+
+
+/* 下拉列表 样式 */
+.pull-down{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.pull-down select{
+    height: 22px;
+    margin-right: 5px;
+    width: 90px;
+}
+.pull-down button{
+    position: relative;
+    top: 1px;
+}

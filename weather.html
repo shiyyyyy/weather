@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- https://www.cnblogs.com/LiuWeiLong/p/6166367.html -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 头部样式 -->
+    <div class="header .clearfix">
+        <span>WEATHER</span>
+        <input type="text" placeholder="请输入城市名">
+        <ul id="ul"></ul>
+        <button id="btn">查询</button>
+    </div>
+
+    <!-- 中间部分样式 -->
+    <div class="content">
+        <div class="content-icon">
+            <i class="info"></i>
+        </div>
+        <div class="content-right">
+            <div class="content-right-top">
+                <strong class="info">上海</strong>
+                <strong>|</strong>
+                <strong class="info">2018-06-06</strong>
+                <strong>|</strong>
+                <strong class="info">星期X</strong>
+                <strong>|</strong>
+                <strong>发布时间:</strong>
+                <strong class="info"></strong>
+            </div>
+            <div class="content-right-bottom" id="align">
+                <p>
+                    白天天气:
+                    <span class="info">5℃</span>
+                    白天温度:
+                    <span class="info">3-4级</span>
+                    白天风向:
+                    <span class="info">西北风</span>
+                    白天风速:
+                    <span class="info">68</span>
+                </p>
+                <p>
+                    晚上天气:
+                    <span class="info">最弱</span>
+                    晚上温度:
+                    <span class="info">较不宜</span>
+                    晚上风向:
+                    <span class="info">少发</span>
+                    晚上风速:
+                    <span class="info">较冷</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部样式 -->
+    <div class="footer">
+        <div class="footer-item">
+            <span class="traverse-info">今天</span>
+            <span class="traverse-info">11月9日</span>
+            <div class="item-main">
+                <i class="traverse-info"></i>
+                <p class="traverse-info">晴</p>
+            </div>
+            <div class="item-footer">
+                <strong class="traverse-info">5~13°</strong>
+                <i class="traverse-info">微风</i>
+            </div>
+        </div>
+        <div class="footer-item">
+            <span class="traverse-info">今天</span>
+            <span class="traverse-info">11月9日</span>
+            <div class="item-main">
+                <i class="traverse-info"></i>
+                <p class="traverse-info">晴</p>
+            </div>
+            <div class="item-footer">
+                <strong class="traverse-info">5~13°</strong>
+                <i class="traverse-info">微风</i>
+            </div>
+        </div>
+        <div class="footer-item">
+            <span class="traverse-info">今天</span>
+            <span class="traverse-info">11月9日</span>
+            <div class="item-main">
+                <i class="traverse-info"></i>
+                <p class="traverse-info">晴</p>
+            </div>
+            <div class="item-footer">
+                <strong class="traverse-info">5~13°</strong>
+                <i class="traverse-info">微风</i>
+            </div>
+        </div>
+        <div class="footer-item">
+            <span class="traverse-info">今天</span>
+            <span class="traverse-info">11月9日</span>
+            <div class="item-main">
+                <i class="traverse-info"></i>
+                <p class="traverse-info">晴</p>
+            </div>
+            <div class="item-footer">
+                <strong class="traverse-info">5~13°</strong>
+                <i class="traverse-info">微风</i>
+            </div>
+        </div>
+        <div class="footer-item">
+            <span class="traverse-info">今天</span>
+            <span class="traverse-info">11月9日</span>
+            <div class="item-main">
+                <i class="traverse-info"></i>
+                <p class="traverse-info">晴</p>
+            </div>
+            <div class="item-footer">
+                <strong class="traverse-info">5~13°</strong>
+                <i class="traverse-info">微风</i>
+            </div>
+        </div>
+    </div>
+
+    <!-- 下拉列表 -->
+    <div class="pull-down">
+        <select id="province"><option value="提示">请选择省份</option></select>
+        <select id="city"><option value="提示">请选择城市</option></select>
+        <select id="county"><option value="提示">请选择县区</option></select>
+        <button id="button">更换</button>
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>
