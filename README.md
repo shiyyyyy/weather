@@ -3,5 +3,5 @@
 ## 注意!!!
 需要打开本地服务器才能浏览~
 ## 预览图片
-![img](https://github.com/shiyyyyy/weather/weather-search.gif)
-![img](https://github.com/shiyyyyy/weather/weather-select.gif)
+![img](https://github.com/shiyyyyy/weather/blob/master/weather-search.gif)
+![img](https://github.com/shiyyyyy/weather/blob/master/weather-select.gif)
